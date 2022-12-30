@@ -101,7 +101,8 @@
   position: absolute;
   width: 1600px;
   height: 80px;
-  padding: 0%;
+  left: 0px;
+  right: 0px;
 }
 
 .button1 {
