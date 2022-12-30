@@ -25,7 +25,6 @@
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  list-style: none;
 }
 .headline:hover,
 .headline:focus {
@@ -141,6 +140,23 @@
   line-height: 2;
   letter-spacing: 0.03em;
 }
+.list {
+  list-style: none;
+  display: flex;
+}
+.list2 {
+  list-style: none;
+  display: flex;
+}
+.list3 {
+  list-style: none;
+  display: flex;
+}
+.list4 {
+  list-style: none;
+  display: flex;
+}
+
 .names {
   color: var(--text-color-primary);
   font-weight: 500;
@@ -191,4 +207,12 @@ link:focus {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+.container {
+  width: 1200px;
+  list-style: none;
+  display: flex;
+}
+.container .headline:not(:last-child) {
+  margin-right: 10px;
 }
