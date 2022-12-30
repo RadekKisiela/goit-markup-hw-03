@@ -25,6 +25,7 @@
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  list-style: none;
 }
 .headline:hover,
 .headline:focus {
@@ -90,7 +91,6 @@
   font-style: normal;
 }
 .background3 {
-  list-style: none;
   flex-direction: row;
   background-color: var(--background-color-secondary);
   position: absolute;
