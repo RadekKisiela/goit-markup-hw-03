@@ -1,3 +1,3 @@
 # goit-markup-hw-02
 
-git@github.com:RadekKisiela/goit-markup-hw-02.git
+git@github.com:RadekKisiela/goit-markup-hw-03.git
