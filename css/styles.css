@@ -91,7 +91,9 @@
 }
 .background3 {
   background-color: var(--background-color-secondary);
-  margin: 0px;
+  position: absolute;
+  width: 1600px;
+  height: 80px;
 }
 
 .button1 {
