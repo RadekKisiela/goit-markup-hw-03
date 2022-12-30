@@ -90,6 +90,7 @@
   font-style: normal;
 }
 .background3 {
+  list-style: none;
   flex-direction: column;
   background-color: var(--background-color-secondary);
   position: absolute;
