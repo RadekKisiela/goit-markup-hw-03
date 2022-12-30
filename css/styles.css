@@ -91,7 +91,7 @@
 }
 .background3 {
   list-style: none;
-  flex-direction: column;
+  -ms-flex-item-align: ;
   background-color: var(--background-color-secondary);
   position: absolute;
   width: 1600px;
