@@ -96,7 +96,7 @@
   top: 80px;
 }
 .background3 {
-  flex-direction: row;
+  display: flex;
   background-color: var(--background-color-secondary);
   position: absolute;
   width: 1600px;
