@@ -95,7 +95,6 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
-  text-align: 24px;
 }
 .background {
   background-color: var(--background-color-primary);
@@ -269,4 +268,5 @@ link:focus {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  margin-left: 215px;
 }
