@@ -17,6 +17,7 @@
   font-family: var(--font-primary);
   color: var(--text-color-primary);
   background-color: var(--background-color-primary);
+  max-width: 1600px;
 }
 .headline {
   color: var(--text-color-primary);
@@ -26,7 +27,6 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   margin: 10px;
-  position: relative;
 }
 .headline2 {
   color: var(--text-color-primary);
@@ -50,8 +50,6 @@
   font-size: 26px;
   text-align: center;
   line-height: 1.17;
-  width: 145px;
-  height: 31px;
 }
 .post-body1 {
   color: var(--text-color-tertiary);
@@ -101,22 +99,26 @@
 }
 .background1 {
   background-color: var(--background-color-quinary);
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
 }
 .background2 {
   background-color: var(--background-color-tertiary);
   font-style: normal;
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
   margin-top: -20px;
 }
 .background4 {
   background-color: var(--background-color-tertiary);
   font-style: normal;
+  width: 1600px;
+  height: 252px;
+  top: 2097px;
 }
 .background3 {
-  display: flex;
   background-color: var(--background-color-secondary);
   width: 1600px;
   height: 80px;
@@ -173,8 +175,6 @@
 .list2 {
   list-style: none;
   display: flex;
-  justify-content: center;
-  word-wrap: normal;
 }
 .background3 .headline2 {
   justify-content: flex-end;
@@ -183,7 +183,6 @@
   list-style: none;
   display: flex;
   column-gap: 30px;
-  justify-content: center;
 }
 .list4 {
   list-style: none;
@@ -191,10 +190,15 @@
   column-gap: 30px;
   justify-content: center;
 }
+
 .list5 {
   list-style: none;
   display: flex;
   justify-content: center;
+}
+.list6 {
+  list-style: none;
+  display: flex;
 }
 .img {
   display: flex;
@@ -264,9 +268,6 @@ link:focus {
   letter-spacing: 0.03em;
 }
 .container {
-  width: 1200px;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 215px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
