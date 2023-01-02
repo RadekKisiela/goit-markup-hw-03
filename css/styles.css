@@ -273,10 +273,6 @@ link:focus {
   margin: 0 auto;
   max-width: 1200px;
 }
-.space {
-  justify-content: space-between;
-  align-items: baseline;
-}
 .flex {
   display: flex;
 }
