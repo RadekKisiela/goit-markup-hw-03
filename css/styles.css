@@ -250,7 +250,7 @@ link:focus {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  margin: 50px;
+  margin-left: 50px;
 }
 .link2:hover,
 .link2:focus {
