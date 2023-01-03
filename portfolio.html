@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -19,13 +18,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="body">
+  <body class="core">
     <header class="background3">
-      <div class="container">
-        <nav class="flex">
-          <a class="post-body" href="index.html"
-            ><span class="accent, post-body1">Web</span>Studio</a
+      <div class="container menu">
+        <nav>
+          <a class="post-body logo" href="index.html"
+            ><span class="accent post-body1">Web</span>Studio</a
           >
           <ul class="list">
             <li><a class="headline" href="#agencja">Agencja</a></li>
@@ -33,7 +33,7 @@
             <li><a class="headline" href="#kontakt">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="list6">
+        <ul class="list">
           <li><a class="link2" href="mailto:info@devstudio">info@devstudio.com</a></li>
           <li><a class="link2" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
@@ -41,14 +41,14 @@
     </header>
     <main class="background">
       <div class="container">
-        <ul class="list5">
+        <ul class="list">
           <li><button class="button2" type="button">Wszystkie</button></li>
           <li><button class="button2" type="button">Strony</button></li>
           <li><button class="button2" type="button">Aplikacje</button></li>
           <li><button class="button2" type="button">Dizajn</button></li>
           <li><button class="button2" type="button">Marketing</button></li>
         </ul>
-        <ul class="img">
+        <ul class="list">
           <li class="border2">
             <img src="./images/laptop.jpg" alt="laptop" width="370" height="294" />
             <h3 class="title3">Technocrack</h3>
@@ -99,13 +99,15 @@
     </main>
     <footer class="background4">
       <div class="container">
-        <a class="post-body2" href="index.html"
-          ><span class="accent, post-body1">Web</span>Studio</a
+        <a class="post-body2 logo" href="index.html"
+          ><span class="accent post-body1">Web</span>Studio</a
         >
         <address class="address" id="kontakt">
-          m. Warszawa, Aleje Jerozolimskie 21
-          <a class="link" href="mailto:info@devstudio">info@devstudio.com</a>
-          <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+          <ul class="list2">
+            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li><a class="link" href="mailto:info@devstudio">info@devstudio.com</a></li>
+            <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
+          </ul>
         </address>
       </div>
     </footer>

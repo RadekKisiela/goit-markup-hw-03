@@ -13,11 +13,12 @@
   --background-color-quaternary: rgba(33, 150, 243, 1);
   --background-color-quinary: rgba(245, 244, 250, 1);
 }
-.body {
+.core {
   font-family: var(--font-primary);
   color: var(--text-color-primary);
-  background-color: var(--background-color-primary);
-  max-width: 1600px;
+}
+.logo {
+  padding-left: 40px;
 }
 .headline {
   color: var(--text-color-primary);
@@ -26,7 +27,6 @@
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  margin-right: 46px;
 }
 
 .headline:hover,
@@ -41,8 +41,6 @@
   font-size: 26px;
   text-align: center;
   line-height: 1.17;
-  margin-left: 35px;
-  margin-top: 24px;
 }
 .post-body1 {
   color: var(--text-color-tertiary);
@@ -64,7 +62,6 @@
   line-height: 1.17;
 }
 .title1 {
-  display: flex;
   color: var(--text-color-quaternary);
   letter-spacing: 0.06em;
   font-size: 44px;
@@ -93,29 +90,17 @@
 }
 .background1 {
   background-color: var(--background-color-quinary);
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
 }
 .background2 {
   background-color: var(--background-color-tertiary);
   font-style: normal;
-  width: 1600px;
-  height: 600px;
-  margin-top: -45px;
 }
 .background4 {
   background-color: var(--background-color-tertiary);
   font-style: normal;
-  width: 1600px;
-  height: 252px;
-  top: 2097px;
 }
 .background3 {
   background-color: var(--background-color-secondary);
-  width: 1600px;
-  height: 80px;
 }
 
 .button1 {
@@ -128,8 +113,6 @@
   line-height: 1.87;
   border: none;
   letter-spacing: 0.06em;
-  width: 200px;
-  height: 50px;
 }
 .button2 {
   color: var(--text-color-primary);
@@ -167,42 +150,10 @@
 .list {
   list-style: none;
   display: flex;
-  margin-top: 32px;
 }
+
 .list2 {
   list-style: none;
-  display: flex;
-}
-
-.list3 {
-  list-style: none;
-  display: flex;
-  column-gap: 30px;
-}
-.list4 {
-  list-style: none;
-  display: flex;
-  column-gap: 30px;
-  justify-content: center;
-}
-
-.list5 {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  column-gap: 30px;
-}
-.list6 {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -34px;
-}
-.img {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
 }
 .names {
   color: var(--text-color-primary);
@@ -250,7 +201,6 @@ link:focus {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  margin-left: 50px;
 }
 .link2:hover,
 .link2:focus {
@@ -273,6 +223,8 @@ link:focus {
   margin: 0 auto;
   max-width: 1200px;
 }
-.flex {
+.menu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

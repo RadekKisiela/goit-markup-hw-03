@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -19,13 +18,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="body">
+  <body class="core"> 
     <header class="background3">
-      <div class="container">
-        <nav class="flex">
-          <a class="post-body" href="index.html"
-            ><span class="accent, post-body1">Web</span>Studio</a
+     <div class="container flex">
+        <nav>
+         <a class="post-body logo" href="index.html"
+            ><span class="accent post-body1">Web</span>Studio</a
           >
           <ul class="list">
             <li><a class="headline" href="#agencja">Agencja</a></li>
@@ -33,22 +33,22 @@
             <li><a class="headline" href="#kontakt">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="list6">
+        <ul class="list">
           <li><a class="link2" href="mailto:info@devstudio">info@devstudio.com</a></li>
           <li><a class="link2" href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
-      </div>
-    </header>
+        </ul></div>
+        </header>
     <main>
       <section class="background2">
         <div class="container">
           <h1 class="title1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1></div>
-          <button class="button1" type="button">Zamów usługę</button>
+          <button class="button1 " type="button">Zamów usługę</button>
         </div>
       </section>
+      <div class="background">
       <section>
         <div class="container">
-          <ul class="list2">
+          <ul class="list">
             <li>
               <h3 class="lorem">Lorem ipsum</h3>
               <p class="lorem1">
@@ -83,7 +83,7 @@
       <section>
         <h2 class="title2">Czym się zajmujemy</h2>
         <div class="container">
-          <ul class="list3">
+          <ul class="list">
             <li>
               <img src="./images/coding.jpg" alt="pisanie kodu" width="370" height="294" />
             </li>
@@ -100,11 +100,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section></div>
       <section class="background1">
         <h2 class="title2">Nasz zespół</h2>
         <div class="container">
-          <ul class="list4">
+          <ul class="list">
             <li>
               <div class="border">
                 <img src="./images/man.jpg" alt="Mężczyzna" width="270" height="260" />
@@ -139,13 +139,14 @@
     </main>
     <footer class="background4">
       <div class="container">
-        <a class="post-body2" href="index.html"
-          ><span class="accent, post-body1">Web</span>Studio</a
-        >
+        <a class="post-body2 logo" href="index.html"
+          ><span class="accent post-body1">Web</span>Studio</a>
         <address class="address" id="kontakt">
-          m. Warszawa, Aleje Jerozolimskie 21
-          <a class="link" href="mailto:info@devstudio">info@devstudio.com</a>
-          <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+          <ul class="list2">
+            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li><a class="link" href="mailto:info@devstudio">info@devstudio.com</a></li>
+            <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
+          </ul>
         </address>
       </div>
     </footer>
