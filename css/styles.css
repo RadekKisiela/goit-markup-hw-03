@@ -17,15 +17,13 @@
   font-family: var(--font-primary);
   color: var(--text-color-primary);
 }
-.logo {
-  padding-left: 40px;
-}
 .headline {
   color: var(--text-color-primary);
   font-weight: 500;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.17;
+
   letter-spacing: 0.02em;
 }
 
@@ -41,6 +39,8 @@
   font-size: 26px;
   text-align: center;
   line-height: 1.17;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .post-body1 {
   color: var(--text-color-tertiary);
@@ -65,9 +65,8 @@
   color: var(--text-color-quaternary);
   letter-spacing: 0.06em;
   font-size: 44px;
-  text-align: center;
-  width: 696px;
-  height: 120px;
+  line-height: 1.36;
+  flex-wrap: wrap;
 }
 
 .title2 {
@@ -94,6 +93,7 @@
 .background2 {
   background-color: var(--background-color-tertiary);
   font-style: normal;
+  text-align: center;
 }
 .background4 {
   background-color: var(--background-color-tertiary);
@@ -104,16 +104,15 @@
 }
 
 .button1 {
-  display: block;
   color: var(--text-color-quaternary);
   font-weight: 700;
   background-color: var(--background-color-quaternary);
   cursor: pointer;
-  text-align: center;
   font-size: 16px;
   line-height: 1.87;
   border: none;
   letter-spacing: 0.06em;
+  padding: 10px 41px 10px 42px;
 }
 .button2 {
   color: var(--text-color-primary);
@@ -231,4 +230,8 @@ link:focus {
 }
 .nav {
   display: flex;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
