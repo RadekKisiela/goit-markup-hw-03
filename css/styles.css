@@ -23,7 +23,7 @@
   text-decoration: none;
   font-size: 14px;
   line-height: 1.17;
-
+  margin-right: 46px;
   letter-spacing: 0.02em;
 }
 
@@ -39,8 +39,6 @@
   font-size: 26px;
   text-align: center;
   line-height: 1.17;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .post-body1 {
   color: var(--text-color-tertiary);
@@ -124,6 +122,8 @@
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-right: 52px;
+  padding: 6px 22px;
 }
 .button2:hover,
 .button2:focus {
@@ -151,6 +151,18 @@
   list-style: none;
   display: flex;
 }
+.list3 {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list4 {
+  list-style: none;
+  display: flex;
+  margin-bottom: 56px;
+  justify-content: center;
+}
 
 .list2 {
   list-style: none;
@@ -175,6 +187,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  gap: 30px;
 }
 .border2 {
   background: #ffffff;
@@ -201,6 +214,7 @@
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  margin-left: 50px;
 }
 .link2:hover,
 .link2:focus {
@@ -226,12 +240,18 @@
 .menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .nav {
   display: flex;
+  align-items: center;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.img {
+  margin-right: 30px;
 }
